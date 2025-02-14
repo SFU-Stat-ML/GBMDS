@@ -1,0 +1,34 @@
+Package: GBMDS
+Type: Package
+Title: Generalized Bayesian multidimensional scaling and model comparison
+Version: 1.0
+Date: 2025-01-27
+Author: Jiarui Erin Zhang
+Maintainer: Jiarui Erin Zhang <jiaruiz@sfu.ca>
+Description: A Generalized Bayesian approach to multidimensional scaling and model comparison. The package consists of implementations of the methods described in the manuscript: Generalized Bayesian Multidimensional Scaling and Model Comparison.
+License: GPL (>= 2)
+Imports: cluster,
+    doMC,
+    dplyr,
+    fGarch,
+    GGally,
+    ggrepel,
+    grid,
+    gridExtra,
+    MASS,
+    MCMCpack,
+    mvtnorm,
+    parallel,
+    philentropy,
+    R.matlab,
+    Rcpp (>= 1.0.11),
+    reshape2,
+    sn,
+    stringdist,
+    text2vec,
+    textmineR,
+    tibble,
+    tidytext,
+    truncnorm,
+    vegan
+LinkingTo: Rcpp, RcppArmadillo

@@ -1,0 +1,9 @@
+useDynLib(GBMDS, .registration=TRUE)
+export(ASMC)
+export(ASMC_Rcpp)
+export(ASMC_incr)
+export(ASMC_incr_Rcpp)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp,evalCpp)
+
+
