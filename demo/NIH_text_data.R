@@ -3,7 +3,7 @@
 library(parallel)
 library(doMC)
 library(fGarch)
-library(GBMDSpackage)
+library(GBMDS)
 library(tidyverse)
 library(textmineR)
 

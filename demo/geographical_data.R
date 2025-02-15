@@ -5,7 +5,7 @@ library(doMC)
 library(fGarch)
 library(tidyverse)
 library(gridExtra)
-library(GBMDSpackage)
+library(GBMDS)
 
 
 data("us_cities_demographics")
